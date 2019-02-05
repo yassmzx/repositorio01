@@ -1,0 +1,510 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+*
+{
+border: 0;
+margin: 0;
+}
+
+img
+{
+border: 0px;
+}
+
+body{
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #1A3129;
+	background: url(images/bg.jpg) ;
+	line-height: 18px;
+}
+
+
+
+#bg_bot {
+	background: url(images/bg_bot.jpg) center bottom repeat-x;}
+
+#bg_top {
+	background: url(images/bg_top.jpg) center top repeat-x;}
+	
+#main {
+	width: 900px;
+	margin: 0px auto;
+	background:url(images/main.jpg) right top no-repeat;}
+
+#header {
+	height: 184px;
+}
+
+#logo {	
+		padding: 43px 0px 0px 3px;
+}
+
+
+#logo a {
+	text-decoration: none;
+	text-transform: lowercase;
+	font-size: 14px;
+	font-weight:bold;
+	color: #F4A6E4;
+}
+	
+#logo H2 a{
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+#buttons{
+	text-align:center;
+	height: 49px;
+	margin-left: 0px;
+	padding-top: 0px;
+	background: url(images/but_bg.png) left top no-repeat;
+}
+
+#buttons a {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-weight: 100;
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: #1E0225;
+	text-align: center;
+	padding-top: 13px;
+	height: 32px;
+	width: 177px;
+	text-transform:uppercase;
+	background: #F4A6E4;
+}
+
+.but {
+	
+	
+}
+
+.but_razd { width: 3px;
+	height: 45px;
+	background:url(images/but_razd.gif);
+	float:left;}
+
+#buttons .but:hover {
+	text-decoration: none;
+	background: #E07ACB;}
+
+.top { height:293px;
+	background: #817580;
+	padding: 15px 0px 15px 0px}
+	
+.top_left {
+	width: 230px;
+	height: 293px;
+	padding: 0px 15px 0px 15px;
+	margin: 0px 14px 0px 6px;
+	background: #F4A6E4;
+	float:left;}
+
+.top_right {
+	float: left;
+	width: 532px;}
+
+.top_text {
+	width: 858px;
+	float:left;
+	background: url(images/content_text.png);
+	height: 245px;
+	padding: 0px 0px 0px 10px;
+	margin: 0px 0px 0px 7px}
+
+.top h1 {
+	color:#1A3129;
+	font-size: 18px;
+	padding: 0px 0px 0px 0px;
+	font-weight: bold;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#content{
+	background: url(images/content.gif) 15px repeat-y #817580;
+	width: 870px;
+	padding: 0px 15px 0px 15px;
+	color: #F4A6E4
+}
+
+#left{
+	width: 552px;
+	float: left;
+	margin-left: 0px;
+	padding: 15px 0px 15px 0px;
+}
+
+.img_l {	float:left;
+		margin: 0px 15px 0px 0px;
+}
+
+.img_r {	float: right;
+		margin: 0px 0px 0px 15px;
+}
+
+.span_cont {	color: #1A3129;
+	font-size:12px;
+	font-weight:bold;
+}
+
+H1{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	font-weight: bold;
+	color: #1A3129;
+	text-align: left;
+	padding: 0px 0px 0px 0px;
+	line-height: 20px;
+}
+
+.color_h {
+	color: #F4A6E4;}
+
+.read{
+	display:block;
+	float:right;
+	height: 20px;
+	width: 65px;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+	text-decoration: none;
+	font-size:12px;
+	color: #FC0202;
+	font-weight: bold;
+}
+
+
+
+.read:hover {
+	font-size:12px;
+	text-decoration: underline;
+}
+
+#right{
+	float: right;
+	width: 273px;
+	padding: 15px 15px 15px 15px;
+}
+
+	
+#bottom {
+	width: 100%;
+	background: #817580;
+	color:#1E0225;
+	padding: 15px 0px 15px 0px;
+}
+
+#bottom h2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	padding: 25px 0px 20px 0px;
+	font-size: 18px;
+	text-align: left;
+	color: #1E0225;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+.b_col1 {
+	width: 280px;
+	float: left;
+	margin-left: 15px;
+}
+.b_col2 {
+	width: 280px;
+	float: left;
+	margin-left: 15px;
+	line-height: 25px;
+}
+
+.b_col3 {
+	width: 280px;
+	float: left;
+	margin-left: 15px;
+	text-align: left;
+}
+
+.b_col1 ul {
+	list-style:none;
+	padding: 0px 0px 0px 0px;}
+
+.b_col1 li {
+	padding: 8px 0px 0px 20px;
+	background: url(images/fish1.gif) 0px 14px no-repeat;
+	}
+.b_col1 ul a:hover {
+	text-decoration:underline;
+	}
+	
+.b_col1 ul a {
+	color: #1E0225;
+	text-decoration:none;}
+	
+.fu_i {
+	padding: 0px 14px 0px 0px;
+	vertical-align: middle ;
+}
+
+.b_col3 ul {
+	list-style:none;
+	padding: 0px 0px 0px 0px;}
+
+.b_col3 li {
+	padding: 8px 0px 2px 0px;
+	background: none;
+	}
+	
+.b_col3 li a {
+	color:#1E0225;
+	text-decoration: none;
+	
+}
+.b_col3 li a:hover {
+	text-decoration: underline;
+}
+
+.b_col_top { background: url(images/b_col_top.png) top repeat-x;}
+
+.b_col_bot { background: url(images/b_col_bot.png) bottom repeat-x;
+	padding-left: 60px;
+	height: 290px;}
+
+
+#footer{
+	height: 76px;
+	font-size: 12px;
+	color: #F4A6E4;
+	text-align: center;
+	padding: 30px 0px 0px 0px;
+	background: url(images/footer.jpg) 0px 15px no-repeat;
+}
+
+#footer a{
+	color: #F4A6E4;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#footer a:hover{
+	color: #F4A6E4;
+	font-size: 12px;
+	text-decoration: underline;
+}
+
+/* blog */
+
+.text{
+	padding: 0px 15px 0px 15px;
+}
+
+.dat_img {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #142B23;
+	float:left;
+	width: 30px;
+	height: 30px;
+	padding: 10px 0px 0px 10px;
+	margin-right: 15px;
+	background:url(images/dat_img.gif) 0px 0px no-repeat;}
+	
+.a_non {
+	text-decoration: none;
+	color: #142B23;}
+.a_non a:hover {
+	text-decoration: none;}
+	
+.a_und {
+	text-decoration: underline;
+	color: #142B23;}
+.a_und:hover {
+	text-decoration: none;}
+
+.datc_coment {
+	height: 20px;
+	width: 100%;
+	background: url(images/datc_coment.gif) top repeat-x;
+	padding: 12px 0px 0px 0px;}
+
+.datc  {
+	float: left;
+	width: 346px;}
+
+.coment {
+	float: right;
+	width: 146px;
+	text-align:right;}
+
+
+.spis {
+	list-style:none;
+	padding: 0px 0px 0px 0px;}
+
+.spis  li {
+	padding: 6px 0px 4px 2px;
+	background:url(images/spis.gif) bottom repeat-x;
+	}
+.spis a:hover {
+	text-decoration: none;
+	}
+	
+.spis a {
+	color:#142B23;
+	text-decoration:none;
+	font-weight: bold;}
+
+.blog_l_razd {
+background:  url(images/blog_l_razd.gif) 12px repeat-x;
+height:12px;}
+
+
+/* gallery */
+
+.row {
+	padding: 0px 0px 0px 0px;
+	height: 229px;
+}
+
+.box_img {
+	width: 266px;
+	height: 214px;
+	background: #FFFFFF;
+	padding: 15px 15px 0px 15px;
+	float:left;
+}
+
+.box_razd {
+	width: 16px;
+	height: 50px;
+	float: left;
+}
+
+.rol_over:hover {
+
+background:url(images/rol_over_galery.png) left top no-repeat;
+}
+
+.g_size {
+width: 298px;
+height: 123px;
+display: block;
+}
+
+
+/* contact us */
+
+#left_cont {
+	width: 682px;
+	float:left;
+	padding: 15px 0px 0px 0px;
+	
+}
+
+#right_cont {
+	width: 254px;
+	float: right;
+	padding: 15px 0px 0px 0px;
+	
+}
+
+.input_txt2 {	
+	width: 583px;
+	border: none;
+	background: url(images/input_txt2.gif) left top repeat-x;
+	padding: 8px 15px 8px 15px;
+	color:#142B23;
+
+}
+
+.text_area2 {
+	width: 583px;
+	height:130px;
+	font-size: 14px;
+	border: none;
+	background: url(images/text_area2.gif) 0px 0px repeat-x;
+	padding: 8px 15px 8px 15px;
+	color:#142B23;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.submit2 {
+	background: url(images/read_bg1.gif) top repeat-x;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #142B23;
+	text-decoration: none;
+	padding: 2px 2px 2px 2px;
+	width: 63px;
+	margin: 0px 0px 0px 0px;
+	
+}
+
+.lh {
+	line-height: 22px;
+}
+
+
+/*
+Header Scroller
+*/
+
+/*
+	jQuery Coda-Slider v2.0 - http://www.ndoherty.biz/coda-slider
+	Copyright (c) 2009 Niall Doherty
+	This plugin available for use in all personal or commercial projects under both MIT and GPL licenses.
+*/
+
+/* Insignificant stuff, for demo purposes */
+
+	.panel h2.title { margin-bottom: 10px }
+	noscript div { background: #ccc; border: 1px solid #900; margin: 20px 0; padding: 15px }
+
+/* Most common stuff you'll need to change */
+
+	.coda-slider-wrapper { padding: 0px }
+	.coda-slider { background: none}
+	
+	/* Use this to keep the slider content contained in a box even when JavaScript is disabled */
+	.coda-slider-no-js .coda-slider { height: 308px; overflow: hidden !important; padding-right: 20px }
+	
+	/* Change the width of the entire slider (without dynamic arrows) */
+	.coda-slider, .coda-slider .panel { width: 870px } 
+	
+	/* Change margin and width of the slider (with dynamic arrows) */
+	.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel { width: 824px }
+	.coda-slider-wrapper.arrows .coda-slider { margin: 0px }
+	
+	/* Arrow styling */
+	.coda-nav-left a { background: url(images/top_left.gif) no-repeat 0px 120px; color: #fff; width: 27px; height: 308px; text-indent: -9000em; margin-left: 10px}
+	.coda-nav-right a { background: url(images/top_right.gif) no-repeat 0px 120px; color: #fff; width: 27px; height: 308px; text-indent: -9000em;}
+	
+	/* Tab nav */
+	.coda-nav ul li a.current { background: #39c }
+	
+	/* Panel padding */
+	.coda-slider .panel-wrapper { padding: 0px }
+	
+	/* Preloader */
+	.coda-slider p.loading { padding: 20px; text-align: center }
+
+/* Don't change anything below here unless you know what you're doing */
+
+	/* Tabbed nav */
+	.coda-nav ul { clear: both; display: block; margin: auto; overflow: hidden }
+	.coda-nav ul li { display: none }
+	.coda-nav ul li a { background: #000; color: #fff; display: block; float: left; margin-right: 1px; padding: 3px 6px; text-decoration: none }
+	
+	/* Miscellaneous */
+	.coda-slider-wrapper { clear: both; overflow: hidden }
+	.coda-slider { float: left; overflow: hidden; position: relative }
+	.coda-slider .panel { display: block; float: left }
+	.coda-slider .panel-container { position: relative }
+	.coda-nav-left, .coda-nav-right { float: left }
+	.coda-nav-left a, .coda-nav-right a { display: block; text-align: center; text-decoration: none }
